@@ -1,0 +1,44 @@
+body{
+  background-color: rgb(34, 34, 34);
+}
+
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: rgb(20, 20, 20);
+  height: 150px;
+  padding: 20px;
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.changeName {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+}
+
+/* .customHeader {
+  
+} */
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
